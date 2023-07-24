@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="dangnhap.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sub-container">
+                <div class="left-container" id="signIn">
+                    <div class="left">
+                        <h1 class="a-heading">
+                            SIGN IN
+                        </h1>
+                        <form class="login">
+                            <input type="email" placeholder="Email">
+                            <input type="password" name="" id="" placeholder="Password">
+                            <p class="f-password">Forgot Password?</p>
+                            <button class="s-button">SIGN IN</button>
+                            <p class="n-new">New Member <i class="t-button" aria-hidden="true" onclick="showSignUp()">Sign up now</i></p>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="right-container" id="signUp">
+                    <div class="right">
+                        <h1 class="a-heading">SIGN UP</h1>
+                        <form class="login">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="s-button">SIGN UP</button>
+                            <p class="n-new">Already have an account? <i class="t-button" aria-hidden="true" onclick="hideSignUP()">Sign In</i></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var signup = document.getElementById('signUp');
+            var signin = document.getElementById('signIn');
+            function showSignUp() {
+                signin.style.display = "none";
+                signup.style.display = "block";
+            }
+            function hideSignUP() {
+                signin.style.display = "block";
+                signup.style.display = "none";
+            }
+        </script>
+    </body>
+</html>

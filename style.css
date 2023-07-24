@@ -7,6 +7,7 @@
 body {
     margin: 0;
 }
+/* Start Menu-Header */
 .container {
     width: 100%;
     max-width: 1400px;
@@ -118,6 +119,9 @@ li.menu-dropdown > a{
 .menu-dropdown-content > li:hover::after {
     width: 100%;
 }
+/* End Menu-Header */
+
+/* Start Text-box-Header */
 .text-box{
     width: 90%;
     color: white;
@@ -138,6 +142,10 @@ li.menu-dropdown > a{
 .line {
     width: 40%;
 }
+/* End  Text-box-Header */
+
+
+/* Start intro-body */
 .intro {
     margin: 50px 0 50px 0;
 }
@@ -209,6 +217,9 @@ section.slide-content > .container-slide {
     margin: 1.25rem 180px  1.1875rem;
     color: white;
 }
+/* End intro-body */
+
+/* Start infomation-hover */
 .information {
     display: grid;
     grid-template-columns: repeat(3,400px);
@@ -272,30 +283,30 @@ section.slide-content > .container-slide {
 .information > .item:hover {
     background-color: wheat;
 }
-
-.slide-pic > img {
+/* End infomation-hover */
+/* .slide-pic > img {
     width: 100%;
     margin-bottom: 16px;
-}
-h4 {
+} */
+/* h4 {
     margin: 0 0 8px 0;
     color: black;
-}
-.text {
+} */
+/* .text {
     margin-bottom: 16px;
     max-width: 300px;
     min-width: fit-content;
-}
-.text > p {
+} */
+/* .text > p {
     margin: 0;
     color: black;
     overflow: hidden;
     overflow: hidden;
-}
-.direction {
+} */
+/* .direction {
     text-align: center;
-}
-.direction > button {
+} */
+/* .direction > button {
     font-family: cursive;
     font-weight: bold;
     background-color: #638fb2;
@@ -308,17 +319,21 @@ h4 {
 }
 .direction > button:hover {
     background-color: #91bddf;
-}
+} */
+
+
+/* Start News-body */
 .formlist {
-    max-width: 960px; /* cộng các phần margin padding rồi nhân cho cái slider muốn hiện */
+    width: 960px;
+    max-width: 100%; /* cộng các phần margin width rồi nhân cho các slider muốn hiện */
     overflow: auto; /*thành phần bên trong không bị rời khỏi màn hình */
-    align-items: center;
-    width: 100%;
-    margin-left: auto;
+    margin:100px auto;
+    /* margin-left: auto;
     margin-right: auto;
-    margin:50px auto 50px;
+    margin:50px auto 50px; */
     scroll-behavior: smooth;
-    scroll-snap-type: both;
+    /* scroll-snap-type: both; */
+ scroll-snap-align: start;   
 }
 .formlist::-webkit-scrollbar {
     display: none; /* ẩn thanh scroll */
@@ -377,3 +392,4 @@ h4 {
     overflow: visible;
     padding-bottom: 8px;
 }
+/* End News-body */

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trường Quốc Tế</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="tuyendung.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="container">
+                <div class="logo">
+                   <a href="index.html"><img src="AIS-logo-white-l.svg" alt="logo"></a> 
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-dropdown">
+                            <a href="#">Về AIS</a>
+                            <div class="menu-dropdown-head">
+                                <ul class="menu-dropdown-content">
+                                    <li><a href="#">Lời chào từ tổng hiệu trường</a></li>
+                                    <li><a href="#">Sứ mệnh</a></li>
+                                    <li><a href="#">Kiểm định & Giám định</a></li>
+                                    <li><a href="#">Phương pháp học tập</a></li>
+                                    <li><a href="#">Ban giám hiệu</a></li>
+                                    <li><a href="#">Giáo viên</a></li>
+                                    <li><a href="#">Lịch học</a></li>
+                                    <li><a href="#">Cơ sở vật chất</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">Chương trình học</a>
+                            <div class="menu-dropdown-head">
+                                <ul class="menu-dropdown-content">
+                                    <li><a href="#">Nguyên tắc học tập</a></li>
+                                    <li><a href="#">Hỗ Trợ Học Thuật</a></li>
+                                    <li><a href="#">Học tập từ xa</a></li>
+                                    <li><a href="#">Hoạt Động Ngoại Khóa</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">Tin Tức & Sự Kiện</a>
+                            <div class="menu-dropdown-head">
+                                <ul class="menu-dropdown-content">
+                                    <li><a href="#">Thông Tin Chung</a></li>
+                                    <li><a href="#">Truyền Thông</a></li>
+                                    <li><a href="#">Sự Kiện</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="tuyensinh.html">Tuyển Sinh</a>
+                            <div class="menu-dropdown-head">
+                                <ul class="menu-dropdown-content">
+                                    <li><a href="tuyensinh.html">Tiêu Chí Tuyển Sinh</a></li>
+                                    <li><a href="#">Quy Trình Tuyển Sinh</a></li>
+                                    <li><a href="#">Học Phí</a></li>
+                                    <li><a href="#">Học Bổng</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="tuyendung.html">Tuyển Dụng</a>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">Liên Hệ</a>
+                        </li>
+                        <li>
+
+                            <div class="icon">
+                                <div class="find-content" id="ficon">
+                                    <i class="fa fa-times" onclick="hiden()"></i>
+                                    <input type="text" placeholder="Search">
+                                </div>
+                                <i class="fa-solid fa-magnifying-glass" onclick="show()" style="color: white;"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="title">
+        <div class="title-h1">
+            <h1>TUYỂN DỤNG</h1>
+        </div>
+        <div class="title-line">
+            <hr>
+        </div>
+    </section>
+
+    <section class="section-filter">
+        <div class="sidebar">
+            <div class="filter">
+                <h3>Bộ Lọc</h3>
+                <div id="btns"></div>
+            </div>
+        </div>
+        <div class="careers">
+            <div class="header-filter">
+                <p>Vị Trí tuyển dụng</p>
+            </div>
+            <div id="root">
+
+            </div>
+        </div>
+        <script src="tuyendung.js"></script>
+    </section>
+</body>
+
+</html>

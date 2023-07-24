@@ -8,6 +8,7 @@
 body {
     margin: 0;
 }
+/* Start Menu-Header */
 .container {
     width: 100%;
     max-width: 1400px;
@@ -114,6 +115,10 @@ li.menu-dropdown > a{
 .menu-dropdown-content > li:hover::after {
     width: 100%;
 }
+/* End Menu-Header */
+
+
+/* Start title-header */
 .title > div{
     margin-top: 15px;
 }
@@ -132,8 +137,12 @@ li.menu-dropdown > a{
 .title > .title-line > hr {
     width: 97%;
     border: solid #5e90c3;
-    margin: 15px 32px 0.1875rem;
+    margin: 22px 29px 1.1875rem;
+    border-radius: 1px;
 }
+/* End title-header */
+
+
 .reverse-block {
     order: -1;
 }
@@ -151,6 +160,9 @@ li.menu-dropdown > a{
     border-radius: 10px;
     width: 180px;
     color: #3277bc;
+    transition-property: background-color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
 }
 .button-block:hover {
     background-color: wheat;
@@ -233,4 +245,18 @@ li.menu-dropdown > a{
 .Overwrite {
     padding-left: 50% !important;
     padding-right: 106px;
+}
+.back-color {
+    background-color: wheat;
+    width: 25vw;
+    text-align: right;
+    height: 400px;
+    position: absolute;
+    z-index: -2;
+    border-radius: 3px;
+}
+.setmargin {
+    width: 90%;
+    margin-left: auto;
+    margin-top: 100px;
 }

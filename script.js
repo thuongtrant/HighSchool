@@ -9,10 +9,10 @@ function hidden()
 }
 
 document.getElementById('nextID').onclick = function(){
-    const widthItem = document.querySelector('.slider').offsetWidth;
-    document.getElementById('formlistID').scrollLeft += widthItem;
+    const widthSlider = document.querySelector('.slider').offsetWidth;
+    document.getElementById('formlistID').scrollLeft += wifdthSlider;
 }
 document.getElementById('prevID').onclick = function(){
-    const widthItem = document.querySelector('.slider').offsetWidth;
-    document.getElementById('formlistID').scrollLeft -= widthItem;
+    const widthSlider = document.querySelector('.slider').offsetWidth;
+    document.getElementById('formlistID').scrollLeft -= widthSlider;
 }
