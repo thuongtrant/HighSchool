@@ -393,3 +393,21 @@ section.slide-content > .container-slide {
     padding-bottom: 8px;
 }
 /* End News-body */
+
+/* Start footer */
+.footer {
+    background-color: #d0ebff;
+    display: flex;
+}
+.footer-logo {
+    width: 20%;
+}
+.footer-inf {
+    width: 20%;
+}
+.footer-contact {
+    width: 20%;
+}
+.footer-follow {
+    width: 20%;
+}
