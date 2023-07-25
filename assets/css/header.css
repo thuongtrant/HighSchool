@@ -1,0 +1,116 @@
+/* Start Menu-Header */
+.main-header {
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/assets/images/bg_header.jpg) ;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.main-header .logo {
+    width: 20%;
+}
+.main-header .logo > img{
+    width: 100%;
+}
+.main-header .menu > ul {
+    display: flex;
+}
+.main-header .menu-list > li {
+    list-style-type: none;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+}
+.main-header .menu-list > li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgb(55, 55, 105) ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.main-header .menu-list > li:hover::after {
+    width: 100%;
+}
+
+.main-header .menu-list > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.find {
+    display: flex;
+}
+.main-header .find {
+    width: 10%;
+    height: 30px;
+    padding: 46px 0 0 0;
+}
+.main-header .find-content {
+    display: none;
+}
+.main-header li.menu-dropdown > a{
+    position: relative;
+}
+.main-header .menu-dropdown-head {
+    display: none;
+}
+.main-header .menu-dropdown:hover .menu-dropdown-head{
+    display: block;
+}
+.main-header .menu-dropdown-content {
+    list-style-type: none;
+    margin-top: 1rem;
+    position: absolute;
+}
+.main-header .menu-dropdown-content > li {
+    padding: 1rem;
+    background-color: white;
+}
+.main-header .menu-dropdown-content > li > a {
+    text-decoration: none;
+    width: 170px;
+    display: block;
+}
+.main-header .menu-dropdown-content > li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgb(55, 55, 105) ;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.main-header .menu-dropdown-content > li:hover::after {
+    width: 100%;
+}
+/* End Menu-Header */
+
+/* Start Text-box-Header */
+.main-header .text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.main-header .text-box > h1 {
+    font-size: 45px;
+}
+.main-header .text-box > p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.main-header .line {
+    width: 40%;
+}
+/* End  Text-box-Header */

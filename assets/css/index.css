@@ -1,160 +1,22 @@
-*{
-    box-sizing: border-box;
+.page-home {
+    margin: 0;
     font-style: normal;
-    /* line-height: 24px; */
     font-family: Arial, Helvetica, sans-serif;
 }
-body {
-    margin: 0;
+.page-home * {
+    box-sizing: border-box;
 }
-/* Start Menu-Header */
-.container {
-    width: 100%;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-}
-.header {
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/assets/images/bg_header.jpg) ;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
-    /* display: flex; */
-    /* flex-direction: column; */
-    width: 100%;
-    min-height: 100vh;
-    padding: 0;
-    margin: 0;
-}
-.logo {
-    width: 20%;
-}
-.logo > img{
-    width: 100%;
-}
-.menu {
-    /* padding-right: 30px; */
-    /* padding-left: 160px; */
-}
-.menu > ul {
-    display: flex;
-}
-.menu-list > li {
-    list-style-type: none;
-    padding: 15px;
-    display: inline-block;
-    position: relative;
-}
-.menu-list > li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background:rgb(55, 55, 105) ;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.menu-list > li:hover::after {
-    width: 100%;
-}
-
-.menu-list > li > a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-.find {
-    display: flex;
-}
-.find {
-    width: 10%;
-    height: 30px;
-    padding: 46px 0 0 0;
-}
-/* .icon {
-    padding: 46px 0 0 42px;
-} */
-.find-content {
-    display: none;
-}
-li.menu-dropdown > a{
-    position: relative;
-}
-.menu-dropdown-head {
-    display: none;
-    /* position: absolute; */
-    /* left: 0; */
-}
-.menu-dropdown:hover .menu-dropdown-head{
-    display: block;
-}
-.menu-dropdown-content {
-    list-style-type: none;
-    margin-top: 1rem;
-    position: absolute;
-}
-.menu-dropdown-content > li {
-    padding: 1rem;
-    background-color: white;
-}
-.menu-dropdown-content > li > a {
-    text-decoration: none;
-    width: 170px;
-    display: block;
-}
-.menu-dropdown-content > li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background:rgb(55, 55, 105) ;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.menu-dropdown-content > li:hover::after {
-    width: 100%;
-}
-/* End Menu-Header */
-
-/* Start Text-box-Header */
-.text-box{
-    width: 90%;
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.text-box > h1 {
-    font-size: 45px;
-}
-.text-box > p {
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: white;
-}
-.line {
-    width: 40%;
-}
-/* End  Text-box-Header */
-
 
 /* Start intro-body */
-.intro {
+.page-home .intro {
     margin: 50px 0 50px 0;
 }
-.intro > hr {
+.page-home .intro > hr {
     width: 93%;
     border: solid #3277bc;
     margin: 1.25rem 47px 1.1875rem;
 }
-.intro > h1 {
+.page-home .intro > h1 {
     font-size: 28px;
     width: 80%;
     margin: auto 40px ;
@@ -162,10 +24,10 @@ li.menu-dropdown > a{
     line-height: 1.25 !important;
     letter-spacing: 1px !important;
 }
-.content {
+.page-home .content {
     padding: 25px 4.5% 45px 4.5%;
 }
-.content > h1 {
+.page-home .content > h1 {
     font-size: 28px !important;
     line-height: 1.25 !important;
     letter-spacing: 1px !important;
@@ -175,41 +37,41 @@ li.menu-dropdown > a{
     border: solid #3277bc;
     margin: 1.25rem 0 1.1875rem;
 }
-.image {
+.page-home .image {
     width: 30%;
 }
-section.contents .image > img {
+.page-home section.contents .image > img {
     width: 100%;
     border-radius: 4px;
 }
-.content {
+.page-home .content {
     width: 70%;
     padding-left: 70px;
 }
-.content > p {
+.page-home .content > p {
     font-size: 18px;
     width: 100%;
     /* padding: 0 4.5%; */
 }
-section.slide-content {
+.page-home section.slide-content {
     margin: 40px;
 }
-section.slide-content > .container-slide {
+.page-home section.slide-content > .container-slide {
     background-color: #3277bc;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
     border-radius: 4px;
 }
-.container-slide > h1 {
+.page-home .container-slide > h1 {
     color: white;
 }
-.container-slide > hr {
+.page-home .container-slide > hr {
     width: 53%;
     border: solid wheat;
     margin: 1.25rem 360px  1.1875rem;
 }
-.container-slide > p {
+.page-home .container-slide > p {
     width: 80%;
     align-items: center;
     padding: 5px 0.5% 25px 14.5;
@@ -220,7 +82,7 @@ section.slide-content > .container-slide {
 /* End intro-body */
 
 /* Start infomation-hover */
-.information {
+.page-home .information {
     display: grid;
     grid-template-columns: repeat(3,400px);
     padding-top: 30px;
@@ -234,7 +96,7 @@ section.slide-content > .container-slide {
     margin-right: auto;
     max-width: 1400px;
 }
-.item {
+.page-home .item {
     display: grid;
     background-color: #d0ebff;
     margin: 10px;
@@ -255,32 +117,32 @@ section.slide-content > .container-slide {
     transition-duration: 0.3s;
     text-decoration: none;
 }
-.icon-main {
+.page-home .icon-main {
    font-size: 80px;
 }
-.icon-main > i {
+.page-home .icon-main > i {
     /* width: 100%; */
     font-size: 80px;
 }
 
-.text-main{
+.page-home .text-main{
     align-items: flex-start;
     text-align: left;
     flex-direction: column;
     display: flex;
     gap: 8px;
 }
-.for-more {
+.page-home .for-more {
     display: flex;
     flex-direction: row;
     grid-column: 1/ span 2;
     font-weight: 600;
 }
-.icon-body {
+.page-home .icon-body {
     margin: 16px 0 0 10px;
 }
 
-.information > .item:hover {
+.page-home .information > .item:hover {
     background-color: wheat;
 }
 /* End infomation-hover */
@@ -323,7 +185,7 @@ section.slide-content > .container-slide {
 
 
 /* Start News-body */
-.formlist {
+.page-home .formlist {
     width: 960px;
     max-width: 100%; /* cộng các phần margin width rồi nhân cho các slider muốn hiện */
     overflow: auto; /*thành phần bên trong không bị rời khỏi màn hình */
@@ -335,19 +197,19 @@ section.slide-content > .container-slide {
     /* scroll-snap-type: both; */
  scroll-snap-align: start;   
 }
-.formlist::-webkit-scrollbar {
+.page-home .formlist::-webkit-scrollbar {
     display: none; /* ẩn thanh scroll */
 }
-.list {
+.page-home .list {
     display: flex;
     width: max-content;
 }
-.news > h1 {
+.page-home .news > h1 {
     font-size: 40px;
     text-align: center;
     color: #007dc5;
 }
-.slider {
+.page-home .slider {
     border-radius: 4px;
     width: 300px;
     height: 415px;
@@ -356,13 +218,13 @@ section.slide-content > .container-slide {
     transition: 0.5s;
     margin: 10px;
 }
-.slider > a {
+.page-home .slider > a {
     text-decoration: none;
     padding: 10px;
     display: flex;
     flex-direction: column;
 }
-.slider .picture {
+.page-home .slider .picture {
     /* padding: 3px 10px; */
     display: block;
     /* margin: 20px auto 10px; */
@@ -371,23 +233,23 @@ section.slide-content > .container-slide {
     border-radius: 4px;
     /* box-shadow: 0 10px 15px #7e878d; */
 }
-.slider .text {
+.page-home .slider .text {
     /* padding: 15px; */
     font-family: monospace;
 }
-.text {
+.page-home .text {
     overflow: hidden;
     height: 168px;
 }
-.text > h2 {
+.page-home .text > h2 {
     /* margin: 0 0 12px 0; */
     color:#007dc5;
     font-size:large ;
 }
-.text > h4 {
+.page-home .text > h4 {
     margin: 0 0 8px 0
 }
-.text > p {
+.page-home .text > p {
     /* margin: 0 0 8px 0; */
     overflow: visible;
     padding-bottom: 8px;
@@ -395,19 +257,19 @@ section.slide-content > .container-slide {
 /* End News-body */
 
 /* Start footer */
-.footer {
+.page-home .footer {
     background-color: #d0ebff;
     display: flex;
 }
-.footer-logo {
+.page-home .footer-logo {
     width: 20%;
 }
-.footer-inf {
+.page-home .footer-inf {
     width: 20%;
 }
-.footer-contact {
+.page-home .footer-contact {
     width: 20%;
 }
-.footer-follow {
+.page-home .footer-follow {
     width: 20%;
 }
