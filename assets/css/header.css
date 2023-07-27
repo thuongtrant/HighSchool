@@ -38,7 +38,7 @@
     content: '';
     width: 0%;
     height: 2px;
-    background:rgb(55, 55, 105) ;
+    background:wheat;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -75,20 +75,32 @@
     margin-top: 1rem;
     position: absolute;
 }
+.nav .menu-dropdown__content::before {
+    position: absolute;
+    left: -1rem;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    content: "";
+    background-color: #1e3550;
+}
 .nav .menu-dropdown__content > li {
-    padding: 1rem;
-    background-color: white;
+    padding: 0.8rem;
+    background-color: #1e3550;
+    padding-left: 0;
 }
 .nav .menu-dropdown__content > li > a {
     text-decoration: none;
     width: 170px;
     display: block;
+    color: white;
 }
 .nav .menu-dropdown__content > li::after {
     content: '';
     width: 0%;
     height: 2px;
-    background:rgb(55, 55, 105) ;
+    background:wheat;
     display: block;
     margin: auto;
     transition: 0.5s;
