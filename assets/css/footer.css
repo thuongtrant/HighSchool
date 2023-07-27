@@ -1,0 +1,99 @@
+/* Start footer */
+.footer  .fixed-loca {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.footer {
+    background-color: #d0ebff;
+    display: flex;
+}
+.footer .inner-footer {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+     
+}
+.footer .footer-logo {
+    width: 25%;
+    margin-left: 110px;
+}
+.footer .footer-inf {
+    width: 20%;
+    padding-left: 16px;
+}
+.footer .footer-heading {
+    text-transform: uppercase;
+}
+.footer .footer-inf .inf > li {
+    padding-bottom: 7px;
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.footer .footer-inf .inf > li:hover {
+    color: rgb(193, 164, 110);
+}
+.footer .footer-contact {
+    width: 30%;
+}
+.footer .contact {
+    list-style-type: none;
+}
+.footer .contact > a {
+    text-decoration: none;
+     flex-direction: row;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    color: black;
+}
+.footer .contact > a:hover {
+    color: rgb(193, 164, 110);
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.footer .contact-icon {
+    margin-right: 10px;
+    width: 30px;
+    font-size: 25px;
+}
+.footer .footer-follow {
+    width: 25%;
+}
+.footer .footer-follow-icon {
+    flex-direction: row;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    text-align: justify;
+}
+.footer .footer-follow-icon > a {
+    color: black;
+    font-size: 25px;
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.footer .footer-follow-icon > a:hover {
+    color: rgb(193, 164, 110); 
+}
+.footer .footer-follow > p {
+    color: black;
+    margin: 0;
+    padding-top: 15px;
+    transition-property: color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.footer .footer-follow > p:hover {
+    color: rgb(193, 164, 110); 
+}
+/* End footer */
