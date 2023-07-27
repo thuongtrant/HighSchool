@@ -1,5 +1,5 @@
 :root {
-    --banner-bg-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/assets/images/bg_header.jpg);
+    --banner-bg-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.7)),url(/assets/images/bg_header.jpg);
     --banner-text-box-display: block;
     --banner-height: calc(100vh - 112px);
 }
