@@ -18,6 +18,9 @@
     padding: 15px;
     background-color: rgba(0,125,197,0.7);
 }
+/* .title > .title-h1::after {
+    content: attr(class);
+} */
 .title > .title-line {
     margin-top: 3px;;
 }

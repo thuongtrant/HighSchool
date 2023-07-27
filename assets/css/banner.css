@@ -1,0 +1,40 @@
+:root {
+    --banner-bg-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/assets/images/bg_header.jpg);
+    --banner-text-box-display: block;
+    --banner-height: calc(100vh - 112px);
+}
+
+/* Start:: Header */
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: var(--banner-height);
+    padding: 0;
+    margin: 0;
+    background-image: var(--banner-bg-image);
+    background-size: cover;
+    background-position: center;
+}
+/* End:: Header */
+
+
+/* Start:: Header > Text-box */
+.banner .text-box {
+    display: var(--banner-text-box-display);
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
+.banner .text-box > h1 {
+    font-size: 45px;
+}
+.banner .text-box > p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.banner .text-box .line {
+    width: 40%;
+}
+/* Start:: Header > Text-box */
