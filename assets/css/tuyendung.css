@@ -36,26 +36,20 @@
 .section-filter {
     display: flex;
 }
-.sidebar {
-    width: 23%;
-    /* height: 100vh; */
-    padding: 50px 0;
-    background-color: #ddd;
-    /* position: fixed; */
+.filter {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 30px;
 }
 .filter > h3 {
     color: black;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin: 0px;
     text-align: center;
 }
-.filter {
-    margin-top: 50px;
-    padding: 30px 40px;
-}
 .careers {
-    width: 75%;
-    right: 0;
+    width: 100%;
 }
 .header-filter {
     display: flex;
@@ -64,14 +58,13 @@
     height: 50px;
     border-bottom: 1px solid #eee;
     color: var(--main-color);
-    background-color: #ddd;
 }
 .header-filter > p {
     font-size: 30px;
     font-weight: bold;
     margin: auto;
 }
-.fil-p{
+.fil-p {
     padding: 15px 15px;
     background-color:white ;
     margin: 7px 0;
@@ -82,13 +75,18 @@
     color: #E0E1DD;
     background-color: #5e90c3;
 }
+#btns {
+    display: flex;
+    gap: 10px;
+} 
 #btns>button {
-    width: 100%;
+    text-align: center;
+    min-width: 125px;
     position: relative;
     border: none;
     border-radius: 2px;
     background-color: #ACB7C3;
-    padding: 7px 25px;
+    padding: 15px 25px;
     cursor: pointer;
 }
 #btns>button:hover {
@@ -107,52 +105,31 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid #ddd;
-    padding: 15px; 
-}
-.box > h3 {
-    margin-bottom:20px ;
+    padding: 15px;
+    padding: 0;
+    width: 480px;
+    border: none;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: aliceblue;
+    cursor: pointer;
+    width: 100%;
 }
 .img-box {
     width: 100%;
-    height: 180px;
+    height: 100%;
+    /* height: 180px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .images-career {
-     max-height: 90%;
-     max-width: 90%;
+    width: 100%;
+    height: 100%;
      object-fit: cover;
      object-position: center;
 }
-.bottom-box {
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
-}
-.bottom-box >button {
-    padding-bottom: 10px;
-    width: 100%;
-    position: relative;
-    border: none;
-    border-radius: 2px;
-    background-color: #ddd;
-    padding: 7px 25px;
-    cursor: pointer;
-}
-.bottom-box >h2{
-    font-size: 20px;
-    color: black;
-    margin: 0;
-}
-.bottom-box > button:hover {
-    background-color: #778DA9
-}
+
 .box:hover {
     box-shadow: 0 5px 6px #7e878d;
     transition-property: box-shadow;

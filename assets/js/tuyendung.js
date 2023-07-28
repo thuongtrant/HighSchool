@@ -129,14 +129,10 @@ const displayItem = (items)=> {
         var {image, title, amount} = itemCareer;
         return ( 
             `<div class='box'>
-            <h3>${title}</h3>
             <div class='img-box'>
             <img class='images-career' src=${image}></img>
             </div>
-            <div class='bottom-box'>
-            <h2> Số lượng: ${amount} </h2>
-            <button> Chi tiết </button>
-            </div>
+            <h3>${title}</h3>
             </div>`)
     }).join('');
 }

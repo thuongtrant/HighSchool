@@ -58,9 +58,10 @@
     color: white;
 }
 .page-home .container-slide > hr {
-    width: 53%;
+    width: 60%;
     border: solid wheat;
     margin: 1.25rem 360px  1.1875rem;
+    border-radius: 1px;
 }
 .page-home .container-slide > p {
     width: 80%;
