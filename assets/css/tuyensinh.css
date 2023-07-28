@@ -2,6 +2,7 @@
     --main-header-bg-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/assets/images/pic-tuyensinh.jpg);
     --main-header-text-box-display: none;
     --main-header-height: 70vh;
+    --main-color:#415A77;
 }
 
 
@@ -16,7 +17,8 @@
     text-align: center;
     width: 290px;
     padding: 15px;
-    background-color: rgba(0,125,197,0.7);
+    background-color: var(--main-color);
+    color: white;
 }
 /* .title > .title-h1::after {
     content: attr(class);
@@ -26,7 +28,7 @@
 }
 .title > .title-line > hr {
     width: 97%;
-    border: solid #5e90c3;
+    border: solid var(--main-color);
     margin: 22px 29px 1.1875rem;
     border-radius: 1px;
 }
@@ -49,7 +51,7 @@
     background-color: white;
     border-radius: 10px;
     width: 180px;
-    color: #3277bc;
+    color: var(--main-color);
     transition-property: background-color;
     transition-duration: 800ms;
     transition-timing-function: ease-in-out;
@@ -91,6 +93,7 @@
     flex-direction: column;
     display: flex;
     text-align: right;
+    /* box-shadow: 0 5px 15px #7e878d; */
 }
 .new-collumn > .block-1 > img {
     margin-right: -1%;
@@ -107,7 +110,7 @@
 }
 .block-2 > .block-2-a {
     width: 100%;
-    background-color: #3277bc;
+    background-color: #778DA9;
     padding-left: 80px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -121,7 +124,7 @@
     color: white;
 }
 .block-2-a > .block-2-h2 {
-    color: wheat;
+    color: #fae5bf;
     text-transform: uppercase;    
     font-size: 40px;
     font-weight: 800;
@@ -137,7 +140,7 @@
     padding-right: 106px;
 }
 .back-color {
-    background-color: wheat;
+    background-color: #fae5bf;
     width: 25vw;
     text-align: right;
     height: 400px;
