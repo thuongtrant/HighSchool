@@ -2,6 +2,7 @@
     --main-header-bg-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/assets/images/pic-tuyendung.jpg);
     --main-header-text-box-display: none;
     --main-header-height: 70vh;
+    --main-color:#415A77;
 }
 
 
@@ -16,14 +17,15 @@
     text-align: center;
     width: 290px;
     padding: 15px;
-    background-color: rgba(0,125,197,0.7);
+    background-color: var(--main-color);
+    color:white
 }
 .title > .title-line {
     margin-top: 3px;;
 }
 .title > .title-line > hr {
     width: 97%;
-    border: solid #5e90c3;
+    border: solid var(--main-color);
     margin: 22px 29px 1.1875rem;
     border-radius: 1px;
 }
@@ -42,7 +44,8 @@
     /* position: fixed; */
 }
 .filter > h3 {
-    /* color: #5e90c3; */
+    color: black;
+    font-size: 20px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -58,10 +61,10 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    /* height: 10vh; */
+    height: 50px;
     border-bottom: 1px solid #eee;
-    color: #383838;
-    background-color: #eee;
+    color: var(--main-color);
+    background-color: #ddd;
 }
 .header-filter > p {
     font-size: 30px;
@@ -76,7 +79,7 @@
     text-align: justify;
 }
 .fil-p:hover {
-    color: wheat;
+    color: #E0E1DD;
     background-color: #5e90c3;
 }
 #btns>button {
@@ -84,9 +87,12 @@
     position: relative;
     border: none;
     border-radius: 2px;
-    background-color: #aaa;
+    background-color: #ACB7C3;
     padding: 7px 25px;
     cursor: pointer;
+}
+#btns>button:hover {
+    background-color: #778DA9;
 }
 #root {
     width: 100%;
@@ -103,7 +109,7 @@
     border: 1px solid #ddd;
     padding: 15px; 
 }
-.box>h3 {
+.box > h3 {
     margin-bottom:20px ;
 }
 .img-box {
@@ -135,17 +141,17 @@
     position: relative;
     border: none;
     border-radius: 2px;
-    background-color: #aaa;
+    background-color: #ddd;
     padding: 7px 25px;
     cursor: pointer;
 }
 .bottom-box >h2{
     font-size: 20px;
-    color: #5e90c3;
+    color: black;
     margin: 0;
 }
 .bottom-box > button:hover {
-    background-color: rgb(221, 213, 199);
+    background-color: #778DA9
 }
 .box:hover {
     box-shadow: 0 5px 6px #7e878d;
