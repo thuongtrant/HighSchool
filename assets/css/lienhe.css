@@ -1,0 +1,179 @@
+/* Start title-header */
+.page-contact {
+    --main-header-bg-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(/assets/images/pic-tuyensinh.jpg);
+    --main-header-text-box-display: none;
+    --main-header-height: 70vh;
+    --main-color:#415A77;
+}
+.title > div{
+    margin-top: 15px;
+}
+.title > .title-h1 {
+    font-size: 25px;
+    margin-left: 30px;
+    border-radius: 4px;
+    text-align: center;
+    width: 290px;
+    padding: 15px;
+    background-color: var(--main-color);
+    color: white;
+}
+/* .title > .title-h1::after {
+    content: attr(class);
+} */
+.title > .title-line {
+    margin-top: 3px;;
+}
+.title > .title-line > hr {
+    width: 97%;
+    border: solid var(--main-color);
+    margin: 22px 29px 1.1875rem;
+    border-radius: 1px;
+}
+/* End title-header */
+.page-contact .border {
+    border-top-width: 15px;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+    border-left-width: 15px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+.page-contact .block-intro {
+    width: 100%;
+}
+.page-contact .back-color { 
+    background-color: #fae5bf;
+    width: 25vw;
+    text-align: right;
+    height: 200px;
+    position: absolute;
+    z-index: -2;
+    border-radius: 3px;
+} 
+/* Start content */
+.page-contact .block-intro .block-intro__1 {
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    padding-left: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 120px;
+    margin: 100px 0;
+    
+}
+.page-contact .block-content__inner {
+    padding-top: 0;
+    padding-right: 115px;
+    padding-bottom: 0;
+    padding-left: 115px;
+}
+.page-contact .block-content__inner__1 {
+    border-top-color: #fae5bf;
+    border-right-color: #fae5bf;
+    border-bottom-color: #fae5bf;
+    border-left-color: #fae5bf;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+.page-contact .block-content__inner__1 > h2 {
+    color: #505050;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.page-contact .block-container {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 100px;
+}
+.page-contact .block-content__inner__left {
+    background-color: #ffd63c;
+    padding-top: 64px;
+    padding-left: 50px;
+    padding-bottom: 64px;
+    padding-right: 83px;
+    width: 60%;
+    margin-top: 6%;
+}
+.page-contact .list-content > li {
+    list-style-type: none;
+    padding: 10px;
+}
+.page-contact .list-content > li > i {
+    font-size: 22px;
+    padding-right: 10px;
+}
+.page-contact .block-content__inner__right {
+    margin-left: -6%;
+}
+.page-contact #color {
+    width: 200px;
+    height: 200px;
+    background-color: var(--main-color);
+    margin-left: 100px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -50px;
+}
+.page-contact .button > button {
+    background-color: var(--main-color);
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 10px 40px;
+    /* outline: none; */
+    border: none;
+    align-items: center;
+    display: flex;
+}
+.page-contact .button > button:hover {
+    background-color: #67809c;
+}
+.page-contact .contact-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.page-contact #img {
+    margin-left: -6%;
+    margin-bottom: -6%;
+}
+.page-contact #img > img {
+    width: 100%;
+}
+.page-contact .list-content .heading {
+    font-size: 30px;
+    font-weight: 600;
+}
+.page-contact .block-content__inner__2 {
+    border-top-color: #c4c4c4;
+    border-right-color: #c4c4c4;
+    border-bottom-color: #c4c4c4;
+    border-left-color: #c4c4c4;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 115px;
+    padding-top: 100px;
+    padding-right: 115px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+.fix-color {
+    background-color: #778DA9 !important; 
+    color: white;
+}
