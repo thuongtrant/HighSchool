@@ -11,7 +11,7 @@ function hidden()
 
 document.getElementById('nextID').onclick = function(){
     const widthSlider = document.querySelector('.slider').offsetWidth;
-    document.getElementById('formlistID').scrollLeft += wifdthSlider;
+    document.getElementById('formlistID').scrollLeft += widthSlider;
 }
 document.getElementById('prevID').onclick = function(){
     const widthSlider = document.querySelector('.slider').offsetWidth;

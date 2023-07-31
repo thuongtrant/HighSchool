@@ -138,50 +138,28 @@
     background-color: wheat;
 }
 /* End infomation-hover */
-/* .slide-pic > img {
-    width: 100%;
-    margin-bottom: 16px;
-} */
-/* h4 {
-    margin: 0 0 8px 0;
-    color: black;
-} */
-/* .text {
-    margin-bottom: 16px;
-    max-width: 300px;
-    min-width: fit-content;
-} */
-/* .text > p {
-    margin: 0;
-    color: black;
-    overflow: hidden;
-    overflow: hidden;
-} */
-/* .direction {
-    text-align: center;
-} */
-/* .direction > button {
-    font-family: cursive;
-    font-weight: bold;
-    background-color: #638fb2;
-    border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    transition: 0.s;
-    margin: 0 10px;
-}
-.direction > button:hover {
-    background-color: #91bddf;
-} */
+
 
 
 /* Start News-body */
+.page-home .slide-container {
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    min-height: inherit;
+}
 .page-home .formlist {
     width: 960px;
     max-width: 100%; /* cộng các phần margin width rồi nhân cho các slider muốn hiện */
     overflow: auto; /*thành phần bên trong không bị rời khỏi màn hình */
-    margin:100px auto;
+    margin: 40px auto;
     /* margin-left: auto;
     margin-right: auto;
     margin:50px auto 50px; */
@@ -196,7 +174,8 @@
     display: flex;
     width: max-content;
 }
-.page-home .news > h1 {
+
+.page-home .news > h2 {
     font-size: 40px;
     text-align: center;
     color: #007dc5;
@@ -239,12 +218,35 @@
     font-size:large ;
 }
 .page-home .text > h4 {
-    margin: 0 0 8px 0
+    margin: 0 0 8px 0;
+    color: black;
 }
 .page-home .text > p {
     /* margin: 0 0 8px 0; */
     overflow: visible;
     padding-bottom: 8px;
+    color: black;
+} 
+.page-home .slide-icon {
+    display: flex;
+   align-items: center;
+}
+.page-home .slide-icon  i {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.2s;
+    font-size: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin:0 10px;
+}
+.page-home > .slide-icon  i:hover{
+    background-color: #91bddf;
 }
 /* End News-body */
 
