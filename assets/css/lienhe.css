@@ -52,7 +52,12 @@
     position: absolute;
     z-index: -2;
     border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-50%);
 } 
+.page-contact .back-color__slide-out {
+    transform: translateX(0);
+}
 /* Start content */
 .page-contact .block-intro .block-intro__1 {
     width: 100%;
@@ -63,7 +68,13 @@
     padding-bottom: 50px;
     padding-right: 120px;
     margin: 100px 0;
-    
+    transition: all 0.7s ease-in-out;
+    opacity: 0;
+    transform: translateX(-5%);
+}
+.page-contact .block-intro .block-intro__slide-out {
+    transform: translateX(0);
+    opacity: 1;
 }
 .page-contact .block-content__inner {
     padding-top: 0;
