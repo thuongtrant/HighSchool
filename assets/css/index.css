@@ -42,7 +42,6 @@
 .page-home .content > p {
     font-size: 18px;
     width: 100%;
-    /* padding: 0 4.5%; */
 }
 .page-home section.slide-content {
     margin: 40px;
@@ -113,7 +112,6 @@
    font-size: 80px;
 }
 .page-home .icon-main > i {
-    /* width: 100%; */
     font-size: 80px;
 }
 
@@ -156,7 +154,7 @@
     min-height: inherit;
 }
 .page-home .formlist {
-    width: 960px;
+    width: 1260px;
     max-width: 100%; /* cộng các phần margin width rồi nhân cho các slider muốn hiện */
     overflow: auto; /*thành phần bên trong không bị rời khỏi màn hình */
     margin: 40px auto;
@@ -173,6 +171,7 @@
 .page-home .list {
     display: flex;
     width: max-content;
+    gap: 20px;
 }
 
 .page-home .news > h2 {
@@ -181,13 +180,13 @@
     color: #007dc5;
 }
 .page-home .slider {
+    box-sizing: border-box;
     border-radius: 4px;
-    width: 300px;
-    height: 415px;
+    width: 400px;
+    height: 500px;
     background-image: linear-gradient(#91bddf,#d0ebff);
     overflow: hidden;
     transition: 0.5s;
-    margin: 10px;
 }
 .page-home .slider > a {
     text-decoration: none;
@@ -196,24 +195,15 @@
     flex-direction: column;
 }
 .page-home .slider .picture {
-    /* padding: 3px 10px; */
     display: block;
-    /* margin: 20px auto 10px; */
     width: 100%;
     object-fit: cover;
     border-radius: 4px;
-    /* box-shadow: 0 10px 15px #7e878d; */
-}
-.page-home .slider .text {
-    /* padding: 15px; */
-    font-family: monospace;
 }
 .page-home .text {
-    overflow: hidden;
     height: 168px;
 }
 .page-home .text > h2 {
-    /* margin: 0 0 12px 0; */
     color:#007dc5;
     font-size:large ;
 }
@@ -222,8 +212,14 @@
     color: black;
 }
 .page-home .text > p {
-    /* margin: 0 0 8px 0; */
-    overflow: visible;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1em;
+    line-height: 1.2em;
+    height: calc(1.2em*5);
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box !important;
     padding-bottom: 8px;
     color: black;
 } 

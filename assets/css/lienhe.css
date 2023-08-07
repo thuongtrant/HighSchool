@@ -184,6 +184,12 @@
     position: relative;
     z-index: 2;
 }
+.page-contact .block-content__inner__2 > h2 {
+    color: #505050;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
 .fix-color {
     background-color: #778DA9 !important; 
     color: white;

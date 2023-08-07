@@ -36,3 +36,4 @@ function setAnimationCallback() {
 }
 $(window).on('scroll', setAnimationCallback)
 $(window).on('load', setAnimationCallback)
+
