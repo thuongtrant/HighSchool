@@ -32,8 +32,8 @@ function setAnimation($element, animationClass) {
 function setAnimationCallback() {
     setAnimation($('.back-color'), 'back-color__slide-out')
     setAnimation($('.block-intro__1'), 'block-intro__slide-out')
-   
 }
+
 $(window).on('scroll', setAnimationCallback)
 $(window).on('load', setAnimationCallback)
 
