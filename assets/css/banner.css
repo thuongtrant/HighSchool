@@ -38,3 +38,26 @@
     width: 40%;
 }
 /* Start:: Header > Text-box */
+
+@media (max-width: 767px)
+{
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: var(--banner-height);
+        padding: 0;
+        margin: 0;
+        background-image: var(--banner-bg-image);
+        background-size: cover;
+        background-position: center;
+    }
+    .banner .text-box > h1 {
+        font-size: 25px;
+    }
+    .banner .text-box > p {
+        margin: 10px 0 40px;
+        font-size: 14px;
+        color: white;
+    }
+}
