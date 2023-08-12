@@ -4,7 +4,7 @@
 }
 .page-home .intro > hr {
     width: 93%;
-    border: solid #3277bc;
+    border: 2px solid #3277bc;
     margin: 1.25rem 47px 1.1875rem;
 }
 .page-home .intro > h1 {
@@ -28,7 +28,7 @@
 }
 .content > hr {
     width: 93%;
-    border: solid #3277bc;
+    border: 2px solid #3277bc;
     margin: 1.25rem 0 1.1875rem;
 }
 .page-home .image {
@@ -107,7 +107,7 @@
 }
 .page-home .container-slide > hr {
     width: 60%;
-    border: solid wheat;
+    border: 2px solid wheat;
     margin: 1.25rem 360px  1.1875rem;
     border-radius: 1px;
 }
