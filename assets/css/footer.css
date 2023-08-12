@@ -130,26 +130,5 @@
     .footer .footer-follow {
         width: 100%;
     }
-    .footer .footer-follow-icon > a {
-        color: #eae0e0;;
-        font-size: 25px;
-        transition-property: color;
-        transition-duration: 200ms;
-        transition-timing-function: ease-in-out;
-    }
-    .footer .footer-follow-icon > a:hover {
-        color: rgb(193, 164, 110); 
-    }
-    .footer .footer-follow > p {
-        color: #eae0e0;
-        margin: 0;
-        padding-top: 15px;
-        transition-property: color;
-        transition-duration: 200ms;
-        transition-timing-function: ease-in-out;
-    }
-    .footer .footer-follow > p:hover {
-        color: rgb(193, 164, 110); 
-    }
 }
 /* End footer */
