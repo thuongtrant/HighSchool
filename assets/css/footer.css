@@ -1,5 +1,5 @@
 /* Start footer */
-.footer  .fixed-loca {
+.footer .fixed-loca {
     padding: 1.25rem;
     display: flex;
     flex-wrap: nowrap;
@@ -16,6 +16,7 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    width: 100%;
      
 }
 .footer .footer-logo {
@@ -100,7 +101,7 @@
     color: rgb(193, 164, 110); 
 }
 
-@media (max-width:767px)
+@media (max-width: 1024px)
 {
     .footer .inner-footer {
         flex-direction: column;
@@ -116,7 +117,7 @@
     .footer .footer-inf {
         width: 100%;
     }
-    .footer .contact {
+    .footer .footer-contact {
         width: 100% ;
     }
     .footer .contact-icon {

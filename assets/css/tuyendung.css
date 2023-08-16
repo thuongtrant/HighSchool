@@ -29,7 +29,7 @@
     margin: 22px 29px 1.1875rem;
     border-radius: 1px;
 }
-@media (max-width: 767px)
+@media (max-width: 1024px)
 {
     .title > .title-h1 {
         font-size: 1rem;
@@ -151,7 +151,7 @@
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
 }
-@media (max-width:767px)
+@media (max-width: 1024px)
 {
    #btns {
     flex-wrap: wrap;
