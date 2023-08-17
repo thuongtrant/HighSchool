@@ -40,3 +40,16 @@ ul {
     justify-content: space-between;
     justify-items: center;
 }
+@media (max-width: 1024px)
+{
+    .container {
+        padding: 0 35px;
+    }
+}
+/* responsive Mobile */
+@media (max-width: 767px)
+{
+    .container {
+        padding: 0 20px;
+    }
+}
