@@ -48,7 +48,7 @@
     padding-right: 10px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .page-home .intro {
         margin: 35px 0;
     }
@@ -121,7 +121,7 @@
     margin: 2rem auto;
 }
  
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .page-home section.slide-content {
         margin: 20px;
     }
@@ -208,7 +208,7 @@
 .page-home .information > .item:hover {
     background-color: wheat;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .page-home .information {
         grid-template-columns: repeat(1,minmax(200px,1fr));
         padding: 10px 20px;
@@ -345,7 +345,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .page-home .formlist {
         width: 630px;
         margin: 20px 10px;

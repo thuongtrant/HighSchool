@@ -1,4 +1,8 @@
 
+:root {
+    --padding-left-mobile: 15px;
+    --padding-right-mobile: 15px;
+}
 body {
     margin: 0;
     font-style: normal;
@@ -40,14 +44,14 @@ ul {
     justify-content: space-between;
     justify-items: center;
 }
-@media (max-width: 1024px)
+@media screen and (max-width: 1024px)
 {
     .container {
         padding: 0 35px;
     }
 }
 /* responsive Mobile */
-@media (max-width: 767px)
+@media screen and (max-width: 767px)
 {
     .container {
         padding: 0 20px;

@@ -125,7 +125,7 @@
 }
 /* End:: Header > Nav */
 
-@media(max-width: 1024px)
+@media screen and (max-width: 1024px)
 {
     .nav {
         flex-direction: column;
@@ -217,9 +217,13 @@
         padding-left: 30px;
     }
 }
-@media (max-width: 767px) {
+
+/* responsive for mobile */
+@media screen and (max-width: 767px) {
     .nav {
         height: auto;
+        /* padding-left: var(--padding-left-mobile);
+        padding-right: var(--padding-right-mobile); */
     }
     .nav .logo {
         width: 38%;

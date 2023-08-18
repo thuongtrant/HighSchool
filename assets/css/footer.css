@@ -101,7 +101,7 @@
     color: rgb(193, 164, 110); 
 }
 
-@media (max-width: 1024px)
+@media screen and (max-width: 1024px)
 {
     .footer .inner-footer {
         flex-direction: column;
@@ -130,7 +130,7 @@
     }
 }
 
-@media (max-width: 1295px)
+@media screen and (max-width: 1295px)
 {
     .footer .footer-logo {
         margin-left: 0;

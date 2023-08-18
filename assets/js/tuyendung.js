@@ -132,7 +132,7 @@ const displayItem = (items)=> {
             <div class='img-box'>
             <img class='images-career' src=${image}></img>
             </div>
-            <h3>${title}</h3>
+            <h5>${title}</h5>
             </div>`)
     }).join('');
 }
