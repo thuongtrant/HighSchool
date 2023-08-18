@@ -9,7 +9,7 @@ function hidden()
     ficon.style.right = "-200px";
 }
 
-//responsive navbar
+// Responsive navbar
 let menuToggle = document.querySelector('.menuToggle');
 let header = document.querySelector('.nav');
 
@@ -18,7 +18,7 @@ menuToggle.onclick = function() {
 }
 
 
-
+// Slider 
 const listEl = document.querySelector('#listID');
 const gap = parseInt(getComputedStyle(listEl).gap);
 const width = listEl.querySelector('.slider').offsetWidth;

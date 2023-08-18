@@ -124,9 +124,7 @@
     width: 100%;
 }
 /* End:: Header > Nav */
-
-@media screen and (max-width: 1024px)
-{
+@media screen and (max-width: 1024px) {
     .nav {
         flex-direction: column;
         height: auto;
