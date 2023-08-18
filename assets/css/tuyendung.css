@@ -63,11 +63,8 @@
     align-items: center;
     padding-left: 10px;
 }
-.filter > h5 {
-    color: black;
-    font-size: 20px;
-    margin: 0px;
-    text-align: center;
+.filter > h3 {
+    flex-shrink: 0; 
 }
 .careers {
     width: 100%;
@@ -88,7 +85,6 @@
 .fil-p {
     padding: 15px 15px;
     background-color:white ;
-    margin: 7px 0;
     cursor: pointer;
     text-align: justify;
 }
@@ -97,28 +93,28 @@
     background-color: #5e90c3;
 }
 #btns {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 110px);
+    width: 100%;
     gap: 10px;
 } 
-#btns>button {
+#btns > button {
     text-align: center;
-    min-width: 125px;
     position: relative;
     border: none;
     border-radius: 2px;
     background-color: #ACB7C3;
-    padding: 15px 25px;
     cursor: pointer;
 }
-#btns>button:hover {
+#btns > button:hover {
     background-color: #778DA9;
 }
 #root {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap:20px;
-    padding: 30px;
+    margin-top: 20px;
 }
 .box {
     display: flex;
@@ -151,7 +147,7 @@
 }
 
 .box:hover {
-    box-shadow: 0 5px 6px #7e878d;
+    box-shadow: 0px 0px 12px rgb(0, 0, 0, 0.3);
     transition-property: box-shadow;
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
@@ -165,7 +161,10 @@
 @media screen and (max-width: 767px)
 {
     h5 {
-        margin: 2px;
+        margin: 18px;
         font-size: 16px;
+    }
+    #root {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
