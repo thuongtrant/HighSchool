@@ -120,3 +120,18 @@
         width: 80%;
     }
  }
+ @media screen and (max-width: 767px)
+ {
+    .page-login .left-container {
+        width: 100%;
+    }
+    .page-login .sub-container {
+        width: 100%;
+    }
+    .page-login .left {
+        width: 100%;
+    }
+    .page-login .right {
+        width: 100%;
+    }
+ }
