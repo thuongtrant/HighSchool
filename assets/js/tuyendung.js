@@ -112,12 +112,12 @@ const career = [
         amount: 2,
     },
 ];
-const listCareer=[...new Set(career.map((itemCareer)=>
+const listCareer = [...new Set(career.map((itemCareer)=>
     {  return itemCareer  }))]
     const filterItems = (a) => {
         const filterCareer = listCareer.filter(itemCareer);
         function itemCareer(value) {
-            if(value.id ==a){
+            if(value.id == a){
                 return(value.id)
             }
         }
