@@ -39,6 +39,9 @@
 .page-login .login {
     font-size: 16px;
 }
+.page-login a {
+    text-align: center;
+}
 .page-login img {
     margin: 0 auto;
     width: 70%;
