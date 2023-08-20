@@ -256,11 +256,7 @@
     max-width: 100%; /* cộng các phần margin width rồi nhân cho các slider muốn hiện */
     overflow: auto; /*thành phần bên trong không bị rời khỏi màn hình */
     margin: 40px auto;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin:50px auto 50px; */
     scroll-behavior: smooth;
-    /* scroll-snap-type: both; */
  scroll-snap-align: start;   
 }
 .page-home .formlist::-webkit-scrollbar {
@@ -330,14 +326,9 @@
     font-weight: bold;
     border: none;
     width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    transition: 0.2s;
     font-size: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
     cursor: pointer;
-    margin:0 10px;
+    margin: 0 10px;
 }
 .page-home > .slide-icon  i:hover{
     background-color: #91bddf;
@@ -375,10 +366,6 @@
     }
     .page-home .text > p {
         font-size: .8rem;
-        line-height: 1rem;
-        height: calc(0.6em*3);
-        -webkit-line-clamp: 3;
-        padding-bottom: 4px;
     }
     .page-home .slide-icon  i {
       display: none;
