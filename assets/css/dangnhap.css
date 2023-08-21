@@ -114,12 +114,7 @@
 .page-login .n-new {
     font-size: 16px;
 }
- @media screen and (max-width:1024px)
- {
-    .page-login .sub-container {
-        width: 80%;
-    }
- }
+
  @media screen and (max-width: 767px)
  {
     .page-login .left-container {
