@@ -8,15 +8,11 @@
     padding: 6px 0;
     background-color: #1e3550;
     transition: all 0.3s ease-out;
-    /* backdrop-filter: blur(10px); */
     
 }
 .nav * {
     user-select: none;
 }
-/* .nav.slide-down {
-    animation: slideDown 0.35s ease-out;
-} */
 .nav.hide {
     top: -100%;
 }
@@ -56,15 +52,7 @@
     font-size: 20px;
     color: white;
 }
-.nav .find {
-    display: flex;
-    width: 10%;
-    height: 30px;
-    padding: 46px 0 0 0;
-}
-.nav .find-content {
-    display: none;
-}
+
 .nav li.menu-dropdown > a {
     position: relative;
 }
@@ -127,6 +115,8 @@
     width: 100%;
 }
 /* End:: Header > Nav */
+
+
 @media screen and (max-width: 1024px) {
     .nav {
         flex-direction: column;
