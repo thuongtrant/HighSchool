@@ -1,12 +1,6 @@
 $(document).ready(function(){
     autoShowBackTopButton();
-    $(window).scroll(function(){
-        if($(this).scrollTop()) {
-            $('#backtop').fadeIn();
-        } else {
-            $('#backtop').fadeOut();
-        }
-    }, autoShowBackTopButton)
+    $(window).scroll(autoShowBackTopButton)
     $("#backtop").click(function(){
         $('html,body').animate({
             scrollTop : 0
