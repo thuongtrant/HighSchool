@@ -101,7 +101,7 @@
 #root {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, minmax(400px,0.333333fr));
     grid-gap:20px;
     margin-top: 20px;
 }
@@ -149,6 +149,21 @@
     flex-wrap: wrap;
    }
 }
+
+@media screen and (max-width: 1275px)
+{
+    #root {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 0.333333fr));
+    }
+}
+
+@media screen and (max-width: 855px)
+{
+    #root {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 0.333333fr));
+    }
+}
+
 @media screen and (max-width: 767px)
 {
     h5 {
