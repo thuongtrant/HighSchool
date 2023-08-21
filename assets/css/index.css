@@ -237,7 +237,7 @@
 /* End infomation-hover */
 
 
-/* Start News-body */
+/* Start Slider */
 .page-home .slide-container {
     padding-top: 0;
     padding-right: 10px;
@@ -253,14 +253,14 @@
 }
 .page-home .formlist {
     width: 1260px;
-    max-width: 100%; /* cộng các phần margin width rồi nhân cho các slider muốn hiện */
-    overflow: auto; /*thành phần bên trong không bị rời khỏi màn hình */
+    max-width: 100%;
+    overflow: auto;
     margin: 40px auto;
     scroll-behavior: smooth;
  scroll-snap-align: start;   
 }
 .page-home .formlist::-webkit-scrollbar {
-    display: none; /* ẩn thanh scroll */
+    display: none;
 }
 .page-home .list {
     display: flex;
@@ -371,5 +371,5 @@
       display: none;
     }
 }
-/* End News-body */
+/* End Slider */
 
