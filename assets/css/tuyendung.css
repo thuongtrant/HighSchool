@@ -153,14 +153,14 @@
 @media screen and (max-width: 1275px)
 {
     #root {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 0.333333fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 0.5fr));
     }
 }
 
 @media screen and (max-width: 855px)
 {
     #root {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 0.333333fr));
+        grid-template-columns: repeat(auto-fit, minmax(350px, 0.5fr));
     }
 }
 
