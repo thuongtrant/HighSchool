@@ -172,6 +172,7 @@
     .section-1 {
         padding-left: var(--padding-left-mobile);
         padding-right: var(--padding-right-mobile);
+        margin-top: 50px !important;
     }
     .new-collumn {
         flex-direction: column;
